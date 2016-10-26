@@ -2,7 +2,7 @@ package by.gsu.epamlab;
 
 public class CurrencyByn {
 
-    public int coins;
+    private int coins;
 
     public CurrencyByn() {
     }

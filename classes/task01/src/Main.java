@@ -32,7 +32,7 @@ public class Main {
 
         // 4. Print the total duration of two initial business trips by the single operator.
 
-        System.out.println(businessTrips[0].getTotal()+businessTrips[1].getTotal());
+        System.out.println(businessTrips[0].getNumberOfDays()+businessTrips[1].getNumberOfDays());
         System.out.println();
 
         // 5. Print the array content to the console (one element per line), using toString( ) method implicitly.

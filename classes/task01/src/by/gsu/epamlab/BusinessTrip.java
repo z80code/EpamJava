@@ -5,7 +5,7 @@ public class BusinessTrip {
     /**
      * Private  daily allowance rate in BYN (the constant)
      */
-    public final static CurrencyByn dailyAllowanceRate = new CurrencyByn(30000);
+    public final static CurrencyByn DAILY_ALLOWANCE_RATE = new CurrencyByn(30000);
 
     /**
      * Employee`s account
@@ -60,14 +60,14 @@ public class BusinessTrip {
     //    getTotal( ) – calculating total business trip expenses
     //            (= transportation expenses + daily allowance rate * number of days);
     public int getTotal() {
-        return dailyAllowanceRate.getCoins() * (numberOfDays) + (transportationExpenses.getCoins());
+        return DAILY_ALLOWANCE_RATE.getCoins() * (numberOfDays) + (transportationExpenses.getCoins());
     }
 
     //    show() – printing all fields to the console
     // (each field and the total business trip expenses
     // should be on the separate line;
     public void show() {
-        System.out.println("rate = " + dailyAllowanceRate.show() + "\n" +
+        System.out.println("rate = " + DAILY_ALLOWANCE_RATE.show() + "\n" +
                 "account = " + employeeAccount + "\n" +
                 "transport = " + transportationExpenses.show() + "\n" +
                 "days = " + numberOfDays + "\n" +
