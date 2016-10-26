@@ -1,7 +1,7 @@
 import by.gsu.epamlab.BusinessTrip;
 import by.gsu.epamlab.CurrencyByn;
 
-public class Main {
+public class ClassesRunner1 {
 
     public static void main(String[] args) {
 
